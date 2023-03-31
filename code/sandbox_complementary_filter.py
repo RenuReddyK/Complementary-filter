@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from complementary_filter import complementary_filter_update
 
 # %%  CSV imu file
-# fname = '../dataset/MachineHall01_reduced/imu0/data.csv'
-fname = '/Users/renu/Desktop/Upenn/Sem_2/MEAM620/HWs/HW2/Project 2_1/meam620/proj2_1/dataset/MachineHall01_reduced/imu0/data.csv'
+fname = '../dataset/MachineHall01_reduced/imu0/data.csv'
+
 # %%
 imu0 = np.genfromtxt(fname, delimiter=',', dtype='float64', skip_header=1)
 
